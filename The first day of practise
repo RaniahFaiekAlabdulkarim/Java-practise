@@ -1,7 +1,14 @@
-
-
 I started with the classic easiest code: 
 System.out.println("Hello World!");
+
+
+I used the graphic library:
+	public void paint(Graphics g ) {
+		g.drawString("Hello world!", 5, 25);
+	}
+	public static void main(String[] args) {
+	}
+
 
 Then I created a simple while loop:
 		int i = 0;
@@ -14,6 +21,9 @@ simple while loop:
 for (int i = 0; i < 5; i++) {
   System.out.println(i);
 }
+
+
+
 
 
 
