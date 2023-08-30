@@ -3,9 +3,17 @@
 I started with the classic easiest code: 
 System.out.println("Hello World!");
 
+Then I created a simple while loop:
+		int i = 0;
+while (i<= 10) {
+	System.out.print(i);
+	i++;
+}
 
-
-
+simple while loop:
+for (int i = 0; i < 5; i++) {
+  System.out.println(i);
+}
 
 
 
