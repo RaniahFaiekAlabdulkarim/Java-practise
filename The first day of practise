@@ -103,14 +103,24 @@ System.out.println("Area of circle= " + a);
 
 
 
+These are the correct answeres for an quiz questions I got wrong:
 
+Which method can be used to find the length of a string?
+length()
 
+The value of a string variable can be surrounded by single quotes?
+False
 
+Which method can be used to return a string in upper case letters?
+toUpperCase()  
 
+Which keyword is used to create a class in Java?
+class
 
+What is the correct way to create an object called myObj of MyClass?
+MyClass myObj = new MyClass();  
 
-
-
-
+Which keyword is used to return a value inside a method?
+return 
 
 
