@@ -1,26 +1,113 @@
+my refrewnce:
+https://gfgc.kar.nic.in/sirmv-science/GenericDocHandler/138-a2973dc6-c024-4d81-be6d-5c3344f232ce.pdf
+
+
 I started with the classic easiest code: 
 System.out.println("Hello World!");
 
 
-I used the graphic library:
-	public void paint(Graphics g ) {
-		g.drawString("Hello world!", 5, 25);
-	}
-	public static void main(String[] args) {
-	}
+an int variable example:
+int x = 5;	
+int y = 7;
+int sum = x * y;
+System.out.println("The sum is: " + sum);
 
 
-Then I created a simple while loop:
-		int i = 0;
-while (i<= 10) {
-	System.out.print(i);
-	i++;
+another int example:
+another mathmatic example:
+int num = 100;
+System.out.println("This is num: " + num);
+num = num * 2;
+System.out.println("The value os num * 2 is: ");
+System.out.println(num);
+
+
+we can use var (variable) as well:
+var x = 5;	
+var y = 7;
+var sum = x * y;
+System.out.println("The sum is: " + sum);
+
+
+simple if statment:
+int x, y;
+x = 20;
+y = 100;
+if (x < y) {
+	System.out.println("x is less than y");
 }
 
-simple while loop:
-for (int i = 0; i < 5; i++) {
-  System.out.println(i);
+
+Another if statment:
+int x, y, z;
+x= 20;
+y= 20;
+z = x * y ;
+if(x == y) {
+System.out.println(" they are equal");	
 }
+
+
+for loop:
+int x;
+for (x = 0; x <= 10; x ++) {
+System.out.println("this is x: " + x);
+}
+
+
+While example:
+int i = 6;
+while (i < 6) {
+System.out.println("Hello");	
+i++;
+}
+
+
+long is intended to have 64 bits, while int has less than that,
+int lightspeed;
+long days;
+long seconds;
+long distance;
+
+
+program that computes the number of miles that light will travel in a specified number of days:
+int lightspeed;
+long days;
+long seconds;
+long distance;
+
+//approximate speed of light in miles per second:
+lightspeed = 186000;
+days = 1000; // this is the number of days.
+seconds = days * 24 * 60 * 60;  // to convert to seconds
+distance= lightspeed * seconds;
+
+System.out.println("In " + days);
+System.out.println("days light will travel about");
+System.out.println(distance + "miles");
+
+/* output: In 1000
+days light will travel about
+16070400000000miles */
+
+
+compute the area of circle:
+double pi, r, a;
+		
+r = 10.8; //radius of a circle
+pi = 3.1416; //approximation of pi
+a = pi * r * r; // computer area
+		
+System.out.println("Area of circle= " + a);
+
+
+
+
+
+
+
+
+
 
 
 
